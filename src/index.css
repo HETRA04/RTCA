@@ -1,13 +1,63 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-color:rgb(188, 50, 86);
+  font-family: 'Poppins', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.registercard{
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 450px;
+  height: 500px;
+  border: 2px solid;
+  border-radius: 30px;
+  
+}
+.registerheader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 35%;
+  font-family: 'Bebas Neue', cursive;
+  
+}
+.registerbody{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 40%;
+  
+}
+.registerinput{
+  margin-bottom: 15px;
+  height: 25px;
+  font-size: large;
+  width: 400px;
+  border-top: none;
+  border-right: none;
+  border-radius: 5px;
+  
+
+}
+.registersubmit{
+  width: 400px;
+  height: 36px;
+  background-color:rgb(15, 50, 86);
+  color: white;
+  font-size: large;
+  cursor: pointer;
+}
+.registerfooter{
+  display:flex ;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  
+  
+  
 }

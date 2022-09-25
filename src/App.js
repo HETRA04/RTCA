@@ -3,7 +3,8 @@ import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 import { useAuthState } from 'react-firebase-hooks/auth';
-import './App.css'
+import Register from "./Register"
+
 
 firebase.initializeApp({
   apiKey: "AIzaSyCxFEcwvyw71RtSAeh3GI-YTZyUcS05T44",
@@ -23,7 +24,8 @@ function App() {
   
   return (
     <div className="App">
-      Hello world
+      <Register/>
+      
       
      </div>
   )

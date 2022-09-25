@@ -1,10 +1,9 @@
-/*import React from 'react';
-import Chatroom from './Components/Chatroom';
+import React from 'react';
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 import { useAuthState } from 'react-firebase-hooks/auth';
-import './App.css'*/
+import './App.css'
 
 firebase.initializeApp({
   apiKey: "AIzaSyCxFEcwvyw71RtSAeh3GI-YTZyUcS05T44",
@@ -16,7 +15,7 @@ firebase.initializeApp({
   measurementId: "G-J4RXV6KC7J"
 })
 
-import React from "react";
+
 
 
 
@@ -24,6 +23,7 @@ function App() {
   
   return (
     <div className="App">
+      Hello world
       
      </div>
   )

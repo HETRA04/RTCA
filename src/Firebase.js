@@ -5,13 +5,13 @@ import { getFirestore } from "firebase/firestore";
 
 
 const firebaseconfig = {
-    apiKey: "AIzaSyCxFEcwvyw71RtSAeh3GI-YTZyUcS05T44",
-    authDomain: "chatapp-9ea55.firebaseapp.com",
-    projectId: "chatapp-9ea55",
-    storageBucket: "chatapp-9ea55.appspot.com",
-    messagingSenderId: "932648553494",
-    appId: "1:932648553494:web:039818cafe1b2834f17937",
-    measurementId: "G-J4RXV6KC7J"
+  apiKey: "AIzaSyD00jybDCBdFFqdNaRbKrGqyxBU8Qyc4L0",
+  authDomain: "communicon.firebaseapp.com",
+  projectId: "communicon",
+  storageBucket: "communicon.appspot.com",
+  messagingSenderId: "191690547295",
+  appId: "1:191690547295:web:1099778f7925a78a5d3bea",
+  measurementId: "G-39T4VK45B4"
   }
 
 export const app = initializeApp(firebaseconfig)

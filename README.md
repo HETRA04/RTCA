@@ -1,6 +1,6 @@
 
-![login page](images/Loginpage)
-![home page](images/Homepage)
+![login page](images/Loginpage.png)
+![home page](images/Homepage.png)
 
 
 
